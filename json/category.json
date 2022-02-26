@@ -1,0 +1,58 @@
+{
+	"products": [
+		{
+			"id": "add1",
+			"url": "#",
+			"title": "Product Title",
+			"text": "Space for a small product description",
+			"new-price": "0.28 USD",
+			"old-price": "48.56",
+			"image": "7.jpg"
+		},
+		{
+			"id": "add2",
+			"url": "#",
+			"title": "Product Title",
+			"text": "Space for a small product description",
+			"new_price": "0.28 USD",
+			"old_price": "48.56",
+			"image": "8.jpg"
+		},
+		{
+			"id": "add3",
+			"url": "#",
+			"title": "Product Title",
+			"text": "Space for a small product description",
+			"new-price": "0.28 USD",
+			"old-price": "48.56",
+			"image": "9.jpg"
+		},
+		{
+			"id": "add4",
+			"url": "#",
+			"title": "Product Title",
+			"text": "Space for a small product description",
+			"new-price": "0.28 USD",
+			"old-price": "48.56",
+			"image": "1.jpg"
+		},
+		{
+			"id": "add5",
+			"url": "#",
+			"title": "Product Title",
+			"text": "Space for a small product description",
+			"new-price": "0.28 USD",
+			"old-price": "48.56",
+			"image": "2.jpg"
+		},
+		{
+			"id": "add6",
+			"url": "#",
+			"title": "Product Title",
+			"text": "Space for a small product description",
+			"new-price": "0.28 USD",
+			"old-price": "48.56",
+			"image": "3.jpg"
+		}
+	]
+}

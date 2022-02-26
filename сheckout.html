@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Оформление заказа</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.css?_v=20220222182435">
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="loading">
+		<img src="img/icons/loading.gif" alt="">
+	</div>
+	<div class="wrapper">
+		<div class="wrapper__container _shadow">
+			<!-- =================================== -->
+			<header class="header">
+				<div class="header__wrapper">
+					<!-- Верхний этаж ============================= -->
+					<div class="header__item top-floor">
+						<div class="top-floor__body _flex">
+							<div data-da=".bottom-floor__contacts,767.98" class="top-floor__item block-info _flex">
+								<a href="#" class="block-info__item chat">Chat with us</a>
+								<a href="tel:420336775664" class="block-info__item phone">+420 336 775 664</a>
+								<a href="mailto:info@freshnesecom.com" class="block-info__item email">info@freshnesecom.com</a>
+							</div>
+							<div class="top-floor__item block-menu">
+								<nav class="block-menu__body">
+									<ul data-da=".bottom-floor__menu,767.98" class="block-menu__list _flex">
+										<li class="block-menu__item"><a href="#" class="block-menu__link">Blog</a></li>
+										<li class="block-menu__item"><a href="#" class="block-menu__link">About Us</a></li>
+										<li class="block-menu__item"><a href="#" class="block-menu__link">Careers</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<!-- Второй этаж ============================== -->
+					<div class="header__item middle-floor">
+						<div class="middle-floor__body _flex">
+							<!--  -->
+							<div class="middle-floor__item">
+								<a href="#" class="logo _title-h1">Freshnesecom</a>
+							</div>
+							<!--  -->
+							<div class="middle-floor__item">
+								<div class="action-box">
+									<div class="action-box__item">
+										<div class="action-box__category category">
+											<button type="button" class="category__title category__title-text _icon-arrow-a">All
+												categories</button>
+											<button type="button" class="category__title category__title-icon"></button>
+											<!-- category__body -->
+										</div>
+									</div>
+									<div class="action-box__item">
+										<div class="action-box__search search">
+											<form action="#" class="search__body">
+												<input autocomplete="off" type="search" name="form[]" data-error="Ошибка" placeholder="Search Products, categories ..." class="search__input">
+												<button type="button" class="search__button _icon-search"></button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--  -->
+							<div class="middle-floor__item">
+								<div class="middle-floor__icons icons-box">
+									<button type="button" class="icon-search _icon-search"></button>
+									<a href="#" class="icon-user _icon-user"></a>
+									<a href="#" data-popup="#popup" class="icon-cart _icon-cart"><span class="_shadow">4</span></a>
+									<button type="button" class="icon-menu"><span></span></button>
+								</div>
+							</div>
+							<!--  -->
+							<div id="category__body" class="category__body">
+								<!-- <div class="category__inner"> -->
+								<div id="js-menu" class="category__content category-menu">
+									<ul class="category-menu__list">
+										<li><a href="#">Bakery</a>
+											<ul class="category-menu__sub-list">
+												<li><a href="#">Bakery 1</a></li>
+												<li><a href="#">Bakery 2</a></li>
+												<li><a href="#">Bakery 3</a>
+													<ul class="category-menu__sub-list">
+														<li><a href="#">Bakery 3.1</a></li>
+														<li><a href="#">Bakery 3.2</a></li>
+														<li><a href="#">Bakery 3.3</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">Fruit and vegetables</a>
+											<ul class="category-menu__sub-list">
+												<li><a href="#">Fruit and vegetables 1</a></li>
+												<li><a href="#">Fruit and vegetables 2</a></li>
+												<li><a href="#">Fruit and vegetables 3</a>
+													<ul class="category-menu__sub-list">
+														<li><a href="#">Fruit and vegetables 3.1</a></li>
+														<li><a href="#">Fruit and vegetables 3.2</a>
+															<ul class="category-menu__sub-list">
+																<li><a href="#">Fruit and vegetables 3.2.1</a></li>
+																<li><a href="#">Fruit and vegetables 3.2.2</a></li>
+																<li><a href="#">Fruit and vegetables 3.2.3</a></li>
+															</ul>
+														</li>
+														<li><a href="#">Fruit and vegetables 3.3</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">Meat and fish</a></li>
+										<li><a href="#">Drinks</a></li>
+										<li><a href="#">Kitchen</a></li>
+										<li><a href="#">Special nutrition</a></li>
+										<li><a href="#">Baby</a></li>
+										<li><a href="#">Pharmacy</a></li>
+									</ul>
+								</div>
+								<!-- </div> -->
+							</div>
+						</div>
+					</div>
+					<!-- Нижний этаж ============================== -->
+					<div class="header__item bottom-floor _shadow">
+						<nav data-spollers data-one-spoller class="bottom-floor__body spollers _flex">
+							<div class="bottom-floor__contacts"></div>
+							<!--  -->
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Bakery</button>
+								<div class="spollers__body">
+									<div>
+										<a href="#" class="spollers__link">Bakery 1</a>
+										<a href="#" class="spollers__link">Bakery 2</a>
+										<a href="#" class="spollers__link">Bakery 3</a>
+									</div>
+								</div>
+							</div>
+							<!--  -->
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Fruit and vegetables</button>
+								<div class="spollers__body">
+									<div>
+										<a href="#" class="spollers__link">Fruit and vegetables 1</a>
+										<a href="#" class="spollers__link">Fruit and vegetables 2</a>
+										<a href="#" class="spollers__link">Fruit and vegetables 3</a>
+									</div>
+								</div>
+							</div>
+							<!--  -->
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Meat and fish</button>
+								<div class="spollers__body">
+									<div>
+										<a href="#" class="spollers__link">Meat and fish 1</a>
+										<a href="#" class="spollers__link">Meat and fish 2</a>
+										<a href="#" class="spollers__link">Meat and fish 3</a>
+									</div>
+								</div>
+							</div>
+							<!--  -->
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Drinks</button>
+								<div class="spollers__body">
+									<div>
+										<a href="#" class="spollers__link">Drinks 1</a>
+										<a href="#" class="spollers__link">Drinks 2</a>
+										<a href="#" class="spollers__link">Drinks 3</a>
+									</div>
+								</div>
+							</div>
+							<!--  -->
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Kitchen</button>
+								<div class="spollers__body">
+									<div>
+										<a href="#" class="spollers__link">Kitchen 1</a>
+										<a href="#" class="spollers__link">Kitchen 2</a>
+										<a href="#" class="spollers__link">Kitchen 3</a>
+									</div>
+								</div>
+							</div>
+							<!--  -->
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Special nutrition</button>
+								<div class="spollers__body">
+									<div>
+										<a href="#" class="spollers__link">Special nutrition 1</a>
+										<a href="#" class="spollers__link">Special nutrition 2</a>
+										<a href="#" class="spollers__link">Special nutrition 3</a>
+									</div>
+								</div>
+							</div>
+							<!--  -->
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Baby</button>
+								<div class="spollers__body">
+									<div>
+										<a href="#" class="spollers__link">Baby 1</a>
+										<a href="#" class="spollers__link">Baby 2</a>
+										<a href="#" class="spollers__link">Baby 3</a>
+									</div>
+								</div>
+							</div>
+							<!--  -->
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Pharmacy</button>
+								<div class="spollers__body">
+									<div>
+										<a href="#" class="spollers__link">Pharmacy 1</a>
+										<a href="#" class="spollers__link">Pharmacy 2</a>
+										<a href="#" class="spollers__link">Pharmacy 3</a>
+									</div>
+								</div>
+							</div>
+							<!--  -->
+							<div class="bottom-floor__menu"></div>
+						</nav>
+					</div>
+					<!-- ============================= -->
+				</div>
+			</header>
+			<!-- =================================== -->
+			<main class="page ordering _scroll">
+				<!-- ======================== -->
+				<div class="page__body page-header">
+					<div class="page-header__item bread-crumbs">
+						<a href="" class="bread-crumbs__item">Homepage</a>
+						<span class="bread-crumbs__item">/</span>
+						<p class="bread-crumbs__item">Checkout page</p>
+					</div>
+				</div>
+				<!-- ======================== -->
+				<div class="page__body _flex _padding-t-64">
+					<!-- =========== -->
+					<div class="ordering__items">
+						<div class="ordering__form form-ordering">
+							<form action="" class="form-ordering__body">
+								<!-- form-ordering__item -->
+								<div class="form-ordering__item _padding-b-64">
+									<div class="ordering__header">
+										<div>
+											<div class="ordering__title">Billing info</div>
+											<div class="ordering__text _cart-text">Please enter your billing info</div>
+										</div>
+										<span>Step 1 of 5</span>
+									</div>
+									<!-- rows -->
+									<div class="form-ordering__rows _flex">
+										<div class="form-ordering__col">
+											<label for="#" class="form-ordering__label">First name</label>
+											<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="First name" class="form-ordering__input">
+										</div>
+										<div class="form-ordering__col">
+											<label for="#" class="form-ordering__label">Last name</label>
+											<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Last name" class="form-ordering__input">
+										</div>
+									</div>
+									<!-- rows -->
+									<div class="form-ordering__rows _flex">
+										<div class="form-ordering__col">
+											<label for="#" class="form-ordering__label">Email address</label>
+											<input autocomplete="off" type="email" name="form[]" data-error="Error" placeholder="Email address" class="form-ordering__input">
+										</div>
+										<div class="form-ordering__col">
+											<label for="#" class="form-ordering__label">Phone number</label>
+											<input autocomplete="off" type="tel" name="form[]" data-error="Error" placeholder="Phone number" class="form-ordering__input">
+										</div>
+									</div>
+									<!-- rows -->
+									<div class="form-ordering__rows _flex">
+										<div class="form-ordering__col">
+											<label for="#" class="form-ordering__label">Address</label>
+											<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Address" class="form-ordering__input">
+										</div>
+										<div class="form-ordering__col">
+											<label for="#" class="form-ordering__label">Town / City</label>
+											<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Town / City" class="form-ordering__input">
+										</div>
+									</div>
+									<!-- rows -->
+									<div class="form-ordering__rows _flex">
+										<div class="form-ordering__col">
+											<label for="#" class="form-ordering__label">State / Country</label>
+											<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="State / Country" class="form-ordering__input">
+										</div>
+										<div class="form-ordering__col">
+											<label for="#" class="form-ordering__label">ZIP/Postal code</label>
+											<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="ZIP/Postal code" class="form-ordering__input">
+										</div>
+									</div>
+									<!-- rows -->
+									<div class="form-ordering__rows _flex">
+										<div class="wrapping-box">
+											<input id="c_1" data-error="Error" class="checkbox__input" type="checkbox" value="1" name="form[]">
+											<label for="c_1" class="checkbox__label"><span class="checkbox__text">Ship to a
+													different address?</span></label>
+										</div>
+									</div>
+									<!-- rows -->
+								</div>
+								<!-- form-ordering__item -->
+								<div class="form-ordering__item _padding-b-64">
+									<div class="ordering__header">
+										<div>
+											<div class="ordering__title">Billing method</div>
+											<div class="ordering__text _cart-text">Please enter your payment method</div>
+										</div>
+										<span>Step 2 of 5</span>
+									</div>
+									<!-- rows -->
+									<div class="form-ordering__rows -gap _flex">
+										<div class="wrapping-box wrapping-box_100">
+											<input id="c_2" name="n_2" data-error="Error" class="radio__input" type="radio" value="1" name="form[]">
+											<label for="c_2" class="checkbox__label"><span class="checkbox__text">FedEx</span></label>
+											<div class="add-price">+32 USD<span>Additional price</span></div>
+											<div class="img-logo"><img src="img/fedex.svg" alt=""></div>
+										</div>
+										<div class="wrapping-box wrapping-box_100">
+											<input id="c_3" name="n_2" data-error="Error" class="radio__input" type="radio" value="1" name="form[]">
+											<label for="c_3" class="checkbox__label"><span class="checkbox__text">DHL</span></label>
+											<div class="add-price">+15 USD<span>Additional price</span></div>
+											<div class="img-logo"><img src="img/dhl.svg" alt=""></div>
+										</div>
+									</div>
+									<!-- rows -->
+								</div>
+								<!-- form-ordering__item -->
+								<div class="form-ordering__item _padding-b-64">
+									<div class="ordering__header">
+										<div>
+											<div class="ordering__title">Payment method</div>
+											<div class="ordering__text _cart-text">Please enter your payment method</div>
+										</div>
+										<span>Step 3 of 5</span>
+									</div>
+									<!-- rows -->
+									<div id="paymentMethod" class="form-ordering__rows -gap _flex">
+										<!--  -->
+										<div class="wrapping-block visa">
+											<div class="input-box">
+												<input id="visa" class="radio__input" type="radio" name="paymentMethod">
+												<label for="visa" class="checkbox__label">Credit card</label>
+												<div class="img-logo"><img src="img/visa.svg" alt=""></div>
+											</div>
+											<div class="payment-details">
+												<div class="form-ordering__rows">
+													<div class="form-ordering__col card-number">
+														<label for="#" class="form-ordering__label">Card number</label>
+														<input pattern="[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}" type="text" name="form[]" data-error="Error" placeholder="Card number" class="form-ordering__input cart-code">
+													</div>
+												</div>
+												<div class="form-ordering__rows cardholder-details _flex">
+													<div class="form-ordering__col">
+														<label for="#" class="form-ordering__label">Card holder</label>
+														<input pattern="[A-Z]" autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Card holder" class="form-ordering__input card-holder">
+													</div>
+													<div class="eeee _flex">
+														<div class="form-ordering__col">
+															<label for="#" class="form-ordering__label">Expiration date</label>
+															<input pattern="[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}" type="text" name="form[]" data-error="Error" placeholder="DD/MM/YY" class="form-ordering__input expiration-date">
+														</div>
+														<div class="form-ordering__col">
+															<label for="#" class="form-ordering__label">CVC</label>
+															<input pattern="[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}" maxlength="3" type="password" name="form[]" data-error="Error" placeholder="CVC" class="form-ordering__input">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!--  -->
+										<div class="wrapping-block payPal">
+											<div class="input-box">
+												<input id="payPal" class="radio__input" type="radio" name="paymentMethod">
+												<label for="payPal" class="checkbox__label">PayPal</label>
+												<div class="img-logo"><img src="img/paypal.svg" alt=""></div>
+											</div>
+											<div class="payment-details">
+												<div class="form-ordering__rows">
+													<a href="#" class="_btn paypal-button">Pay with<img src="img/paypal.svg" alt=""></a>
+												</div>
+											</div>
+										</div>
+										<!--  -->
+									</div>
+									<!-- rows -->
+								</div>
+								<!-- form-ordering__item -->
+								<div class="form-ordering__item _padding-b-64">
+									<div class="ordering__header">
+										<div>
+											<div class="ordering__title">Additional informations</div>
+											<div class="ordering__text _cart-text">Need something else? We will make it for you!
+											</div>
+										</div>
+										<span>Step 4 of 5</span>
+									</div>
+									<!-- rows -->
+									<div class="form-ordering__rows _flex">
+										<div class="form-ordering__col additional-informations">
+											<label for="#" class="checkbox__label">Order notes</label>
+											<textarea autocomplete="off" name="form[]" placeholder="Need a specific delivery day? Sending a gitf? Let’s say ..." data-error="Ошибка" class="input"></textarea>
+										</div>
+									</div>
+									<!-- rows -->
+								</div>
+								<!-- form-ordering__item -->
+								<div class="form-ordering__item _padding-b-32">
+									<div class="ordering__header">
+										<div>
+											<div class="ordering__title">Confirmation</div>
+											<div class="ordering__text _cart-text">We are getting to the end. Just few clicks and
+												your order si ready!
+											</div>
+										</div>
+										<span>Step 5 of 5</span>
+									</div>
+									<!-- rows -->
+									<div class="form-ordering__rows -gap _flex">
+										<div class="form-ordering__col additional-informations">
+											<div class="wrapping-box">
+												<input id="c_6" data-error="Error" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_6" class="checkbox__label"><span class="checkbox__text">I agree with
+														sending an Marketing and newsletter emails. No spam, promissed!</span></label>
+											</div>
+										</div>
+										<div class="form-ordering__col additional-informations">
+											<div class="wrapping-box">
+												<input id="c_7" data-error="Error" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_7" class="checkbox__label"><span class="checkbox__text">I agree
+														with
+														our terms and conditions and privacy policy.</span></label>
+											</div>
+										</div>
+
+									</div>
+									<!-- rows -->
+								</div>
+								<!-- form-ordering__item -->
+								<button type="submit" class="form-submit _btn _btn-background">Complete order</button>
+							</form>
+						</div>
+					</div>
+					<!-- ========= -->
+					<div class="ordering__items">
+						<div class="order-summary">
+							<div class="ordering__header">
+								<div>
+									<div class="ordering__title">Order Summary</div>
+									<div class="ordering__text _cart-text">Price can change depending on shipping method and
+										taxes
+										of
+										your state.</div>
+								</div>
+							</div>
+							<div class="order-summary__wrapper">
+
+								<div class="cart-block__item bascket-content product-selected">
+									<div class="bascket-content__item _flex">
+										<div class="bascket-content__col">
+											<div class="bascket-content__image -ibg">
+												<picture><source srcset="img/4.webp" type="image/webp"><img src="img/4.jpg" alt=""></picture>
+											</div>
+										</div>
+										<div class="bascket-content__col">
+											<div class="bascket-content__title">Product title</div>
+											<div class="bascket-content__text"><span>Farm:</span>Tharamis Farm</div>
+											<div class="bascket-content__text"><span>Freshness:</span>1 day old</div>
+										</div>
+									</div>
+									<div class="bascket-content__item _flex">
+										<div class="bascket-content__col">
+											<div class="bascket-content__text"><img src="img/icons/favorite.svg" alt=""><span>Wishlist</span>
+											</div>
+											<div class="bascket-content__text _icon-compare"><span>Compare</span></div>
+											<div class="bascket-content__text _icon-remove"><span>Remove</span></div>
+										</div>
+										<div class="bascket-content__col">
+											<div class="cart-rating">
+												<span class="star-pouring _icon-star"></span>
+												<span class="star-pouring _icon-star"></span>
+												<span class="star-pouring _icon-star"></span>
+												<span class="star-pouring _icon-star"></span>
+												<span class="_icon-star"></span>
+											</div>
+											<div class="col-price">
+												<span class="new-price">0.28 USD</span>
+												<span class="old-price">48.56</span>
+											</div>
+										</div>
+										<div class="bascket-content__col">
+											<div class="bascket-content__pcs">
+												<div class="pcs">1</div>
+												<div class="pcs-add">
+													<p class="plus">+</p>
+													<span>/</span>
+													<p class="minus">-</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--  -->
+								<div class="cart-block__item bascket-content product-selected">
+									<div class="bascket-content__item _flex">
+										<div class="bascket-content__col">
+											<div class="bascket-content__image -ibg">
+												<picture><source srcset="img/3.webp" type="image/webp"><img src="img/3.jpg" alt=""></picture>
+											</div>
+										</div>
+										<div class="bascket-content__col">
+											<div class="bascket-content__title">Product title</div>
+											<div class="bascket-content__text"><span>Farm:</span>Tharamis Farm</div>
+											<div class="bascket-content__text"><span>Freshness:</span>1 day old</div>
+										</div>
+									</div>
+									<div class="bascket-content__item _flex">
+										<div class="bascket-content__col">
+											<div class="bascket-content__text"><img src="img/icons/favorite.svg" alt=""><span>Wishlist</span>
+											</div>
+											<div class="bascket-content__text _icon-compare"><span>Compare</span></div>
+											<div class="bascket-content__text _icon-remove"><span>Remove</span></div>
+										</div>
+										<div class="bascket-content__col">
+											<div class="cart-rating">
+												<span class="star-pouring _icon-star"></span>
+												<span class="star-pouring _icon-star"></span>
+												<span class="star-pouring _icon-star"></span>
+												<span class="star-pouring _icon-star"></span>
+												<span class="_icon-star"></span>
+											</div>
+											<div class="col-price">
+												<span class="new-price">0.28 USD</span>
+												<span class="old-price">48.56</span>
+											</div>
+										</div>
+										<div class="bascket-content__col">
+											<div class="bascket-content__pcs">
+												<div class="pcs">1</div>
+												<div class="pcs-add">
+													<p class="plus">+</p>
+													<span>/</span>
+													<p class="minus">-</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- =========================== -->
+								<div class="cart-block__item bascket-content">
+									<div class="bascket-content__rows _flex">
+										<span class="order-summary__col">Subtotal</span>
+										<span class="order-summary__col">73.98 USD</span>
+									</div>
+									<div class="bascket-content__rows _flex">
+										<span class="order-summary__col">Tax</span>
+										<span class="order-summary__col">17% 16.53 USD</span>
+									</div>
+									<div class="bascket-content__rows _flex">
+										<span class="order-summary__col">Shipping</span>
+										<span class="order-summary__col">0 USD</span>
+									</div>
+								</div>
+								<!-- ================== -->
+								<div class="cart-block__item bascket-content">
+									<div class="form-promo">
+										<input type="text" name="form[]" data-error="Ошибка" placeholder="Apply promo code" class="form-promo__input">
+										<button type="button" class="form-promo__button">Apply now</button>
+									</div>
+								</div>
+								<!-- ===================== -->
+								<div class="cart-block__item bascket-content totalOrder">
+									<div class="total-order">
+										<div class="total-order__title">Total Order</div>
+										<div class="total-order__data _flex">
+											<span class="data-text">Guaranteed delivery day:</span>
+											<span class="data">June 12, 2020</span>
+										</div>
+
+									</div>
+									<div class="total-order__price">89.84 USD</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- ========= -->
+				</div>
+
+			</main>
+			<footer class="footer">
+				<div class="footer__wrapper _padding-t-b-64">
+					<div class="security">
+						<img src="img/shit.svg" alt="">
+						<div class="security__content">
+							<div class="security__title">All your data are safe</div>
+							<div class="security__tetx">We are using the most advanced security to provide you the best
+								experience ever.</div>
+						</div>
+					</div>
+					<div class="page__body _padding-t-24 copy">Copyright © 2022 Freshnese.com</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__header">
+					<div class="cart-block__title">Shopping cart</div>
+					<div class="cart-block__close">
+						<span>Close</span>
+						<button data-close type="button" class="close__button"></button>
+					</div>
+				</div>
+
+				<div class="popup__text">
+					<div class="cart-block">
+
+						<div class="cart-block__item bascket-content">
+							<div class="bascket-content__item _flex">
+								<div class="bascket-content__col">
+									<div class="bascket-content__image -ibg">
+										<picture><source srcset="img/1.webp" type="image/webp"><img src="img/1.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="bascket-content__col">
+									<div class="bascket-content__title">Product title</div>
+									<div class="bascket-content__text"><span>Farm:</span>Tharamis Farm</div>
+									<div class="bascket-content__text"><span>Freshness:</span>1 day old</div>
+								</div>
+							</div>
+							<div class="bascket-content__item _flex">
+								<div class="bascket-content__col">
+									<div class="bascket-content__text"><img src="img/icons/favorite.svg" alt=""><span>Wishlist</span>
+									</div>
+									<div class="bascket-content__text _icon-compare"><span>Compare</span></div>
+									<div class="bascket-content__text _icon-remove"><span>Remove</span></div>
+								</div>
+								<div class="bascket-content__col">
+									<div class="cart-rating">
+										<span class="star-pouring _icon-star"></span>
+										<span class="star-pouring _icon-star"></span>
+										<span class="star-pouring _icon-star"></span>
+										<span class="star-pouring _icon-star"></span>
+										<span class="_icon-star"></span>
+									</div>
+									<div class="col-price">
+										<span class="new-price">0.28 USD</span>
+										<span class="old-price">48.56</span>
+									</div>
+								</div>
+								<div class="bascket-content__col">
+									<div class="bascket-content__pcs">
+										<div class="pcs">1</div>
+										<div class="pcs-add">
+											<p class="plus">+</p>
+											<span>/</span>
+											<p class="minus">-</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cart-block__item bascket-content">
+							<div class="bascket-content__item _flex">
+								<div class="bascket-content__col">
+									<div class="bascket-content__image -ibg">
+										<picture><source srcset="img/3.webp" type="image/webp"><img src="img/3.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="bascket-content__col">
+									<div class="bascket-content__title">Product title</div>
+									<div class="bascket-content__text"><span>Farm:</span>Tharamis Farm</div>
+									<div class="bascket-content__text"><span>Freshness:</span>1 day old</div>
+								</div>
+							</div>
+							<div class="bascket-content__item _flex">
+								<div class="bascket-content__col">
+									<div class="bascket-content__text"><img src="img/icons/favorite.svg" alt=""><span>Wishlist</span>
+									</div>
+									<div class="bascket-content__text _icon-compare"><span>Compare</span></div>
+									<div class="bascket-content__text _icon-remove"><span>Remove</span></div>
+								</div>
+								<div class="bascket-content__col">
+									<div class="cart-rating">
+										<span class="star-pouring _icon-star"></span>
+										<span class="star-pouring _icon-star"></span>
+										<span class="star-pouring _icon-star"></span>
+										<span class="star-pouring _icon-star"></span>
+										<span class="_icon-star"></span>
+									</div>
+									<div class="col-price">
+										<span class="new-price">0.28 USD</span>
+										<span class="old-price">48.56</span>
+									</div>
+								</div>
+								<div class="bascket-content__col">
+									<div class="bascket-content__pcs">
+										<div class="pcs">1</div>
+										<div class="pcs-add">
+											<p class="plus">+</p>
+											<span>/</span>
+											<p class="minus">-</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cart-block__item bascket-content">
+							<div class="bascket-content__item _flex">
+								<div class="bascket-content__col">
+									<div class="bascket-content__image -ibg">
+										<picture><source srcset="img/4.webp" type="image/webp"><img src="img/4.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="bascket-content__col">
+									<div class="bascket-content__title">Product title</div>
+									<div class="bascket-content__text"><span>Farm:</span>Tharamis Farm</div>
+									<div class="bascket-content__text"><span>Freshness:</span>1 day old</div>
+								</div>
+							</div>
+							<div class="bascket-content__item _flex">
+								<div class="bascket-content__col">
+									<div class="bascket-content__text"><img src="img/icons/favorite.svg" alt=""><span>Wishlist</span>
+									</div>
+									<div class="bascket-content__text _icon-compare"><span>Compare</span></div>
+									<div class="bascket-content__text _icon-remove"><span>Remove</span></div>
+								</div>
+								<div class="bascket-content__col">
+									<div class="cart-rating">
+										<span class="star-pouring _icon-star"></span>
+										<span class="star-pouring _icon-star"></span>
+										<span class="star-pouring _icon-star"></span>
+										<span class="star-pouring _icon-star"></span>
+										<span class="_icon-star"></span>
+									</div>
+									<div class="col-price">
+										<span class="new-price">0.28 USD</span>
+										<span class="old-price">48.56</span>
+									</div>
+								</div>
+								<div class="bascket-content__col">
+									<div class="bascket-content__pcs">
+										<div class="pcs">1</div>
+										<div class="pcs-add">
+											<p class="plus">+</p>
+											<span>/</span>
+											<p class="minus">-</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cart-block__item bascket-content">
+							<div class="bascket-content__item _flex">
+								<div class="bascket-content__col">
+									<div class="bascket-content__image -ibg">
+										<picture><source srcset="img/2.webp" type="image/webp"><img src="img/2.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="bascket-content__col">
+									<div class="bascket-content__title">Product title</div>
+									<div class="bascket-content__text"><span>Farm:</span>Tharamis Farm</div>
+									<div class="bascket-content__text"><span>Freshness:</span>1 day old</div>
+								</div>
+							</div>
+							<div class="bascket-content__item _flex">
+								<div class="bascket-content__col">
+									<div class="bascket-content__text"><img src="img/icons/favorite.svg" alt=""><span>Wishlist</span>
+									</div>
+									<div class="bascket-content__text _icon-compare"><span>Compare</span></div>
+									<div class="bascket-content__text _icon-remove"><span>Remove</span></div>
+								</div>
+								<div class="bascket-content__col">
+									<div class="cart-rating">
+										<span class="star-pouring _icon-star"></span>
+										<span class="star-pouring _icon-star"></span>
+										<span class="star-pouring _icon-star"></span>
+										<span class="star-pouring _icon-star"></span>
+										<span class="_icon-star"></span>
+									</div>
+									<div class="col-price">
+										<span class="new-price">0.28 USD</span>
+										<span class="old-price">48.56</span>
+									</div>
+								</div>
+								<div class="bascket-content__col">
+									<div class="bascket-content__pcs">
+										<div class="pcs">1</div>
+										<div class="pcs-add">
+											<p class="plus">+</p>
+											<span>/</span>
+											<p class="minus">-</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="popup__footer">
+					<div class="popup__footer-item">
+						<span>Subtotal</span>
+						<span>73.98 USD</span>
+					</div>
+					<div class="popup__footer-item">
+						<a href="category_list.html" target="_blanck" class="_btn _btn-emptydd">Continue shopping</a>
+						<a href="сheckout.html" target="_blanck" class="_btn _btn-background">Go to Checkout</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?_v=20220222182435"></script>
+	<script src="js/app.min.js?_v=20220222182435"></script>
+</body>
+
+</html>
