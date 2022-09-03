@@ -7,9 +7,9 @@
 - Тестился в браузерах "Yandex", "Hrome", "Firefox", "Edge", "Safari", а также в их мобильных версиях.
 - Качество вёрстки проверено W3C
 - 6 страниц
-- - [Главная](https://sergeybespyatov.github.io/freshnesecom/home.html)
-- - [Каталог](https://sergeybespyatov.github.io/freshnesecom/category_list.html)
-- - [Описание продукта](https://sergeybespyatov.github.io/freshnesecom/product-tetail.html)
-- - [Оформление заказа](https://sergeybespyatov.github.io/freshnesecom/сheckout.html)
-- - [Блог](https://sergeybespyatov.github.io/freshnesecom/blog.html)
-- - [Отдельный пост](https://sergeybespyatov.github.io/freshnesecom/entry.html)
+- - 1 [Главная](https://sergeybespyatov.github.io/freshnesecom/home.html)
+- - 2 [Каталог](https://sergeybespyatov.github.io/freshnesecom/category_list.html)
+- - 3 [Описание продукта](https://sergeybespyatov.github.io/freshnesecom/product-tetail.html)
+- - 4 [Оформление заказа](https://sergeybespyatov.github.io/freshnesecom/сheckout.html)
+- - 5 [Блог](https://sergeybespyatov.github.io/freshnesecom/blog.html)
+- - 6 [Отдельный пост](https://sergeybespyatov.github.io/freshnesecom/entry.html)
