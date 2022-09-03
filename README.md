@@ -1,4 +1,4 @@
-<h1 align="center">Webovio</h1>
+<h1 align="center">Freshnesecom</h1>
 <img src="https://github.com/sergeybespyatov/freshnesecom/blob/main/screenshot.png">
 <p align="center"><strong><a href="https://sergeybespyatov.github.io/freshnesecom/" target="_blank">ДЕМО</a></strong></p>
 
