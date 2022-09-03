@@ -4,7 +4,7 @@
 
 - 100% адаптивная вёрстка.
 - Без использования Bootstrap.
-- Тестился в браузерах "Yandex", "Hrome", "Firefox", "Edge", "Safari", а также в их мобильных версиях.
+- Тестился в браузерах "Yandex", "Chrome", "Firefox", "Edge", "Safari", а также в их мобильных версиях.
 - Качество вёрстки проверено W3C
 - 6 страниц
 - - 1 [Главная](https://sergeybespyatov.github.io/freshnesecom/home.html)
