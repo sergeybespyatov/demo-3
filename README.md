@@ -1,5 +1,5 @@
 <h1 align="center">Freshnesecom</h1>
-<img src="https://github.com/sergeybespyatov/freshnesecom/blob/main/screenshot.jpg">
+<p align="center"><img width="70%" src="https://github.com/sergeybespyatov/freshnesecom/blob/main/screenshot.jpg"></p>
 <p align="center"><strong><a href="https://sergeybespyatov.github.io/freshnesecom/" target="_blank">ДЕМО</a></strong></p>
 
 - 100% адаптивная вёрстка.
