@@ -16,3 +16,13 @@
 - - 4 [Оформление заказа](https://sergeybespyatov.github.io/demo-3/сheckout.html)
 - - 5 [Блог](https://sergeybespyatov.github.io/demo-3/blog.html)
 - - 6 [Отдельный пост](https://sergeybespyatov.github.io/demo-3/entry.html)
+
+### Мои контакты:
+
+- bespyatovserega@yandex.ru
+- https://t.me/bespyatovserega
+
+### Другие мои работы:
+
+<a href="https://github.com/sergeybespyatov/demo-1"><img width="33.3333%" src="https://github.com/sergeybespyatov/demo-1/blob/main/screenshot.jpg"/></a>
+<a href="https://github.com/sergeybespyatov/demo-2"><img width="33.3333%" src="https://github.com/sergeybespyatov/demo-2/blob/main/screenshot.jpg"/></a>
