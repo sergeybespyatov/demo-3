@@ -1,6 +1,9 @@
-<h1 align="center">Freshnesecom</h1>
-<p align="center"><img width="70%" src="https://github.com/sergeybespyatov/freshnesecom/blob/main/screenshot.jpg"></p>
-<p align="center"><strong><a href="https://sergeybespyatov.github.io/freshnesecom/" target="_blank">ДЕМО</a></strong></p>
+*Открыть ссылку в новом окне* __CTRL + ЛКМ__
+
+<h1 align="center">Вёрстка сайта</h1>
+<h2 align="center"><a href="https://sergeybespyatov.github.io/demo-3" target="_blank">Freshnesecom</a></h2>
+<p align="center"><img width="70%" src="https://github.com/sergeybespyatov/demo-3/blob/main/screenshot.jpg"></p>
+<h2 align="center"><a href="https://sergeybespyatov.github.io/demo-3" target="_blank">Смотреть демо</a></h2>
 
 - 100% адаптивная вёрстка.
 - Без использования Bootstrap.
