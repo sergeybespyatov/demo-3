@@ -15,4 +15,4 @@
 - - 3 [Описание продукта](https://sergeybespyatov.github.io/demo-3/product-tetail.html)
 - - 4 [Оформление заказа](https://sergeybespyatov.github.io/demo-3/сheckout.html)
 - - 5 [Блог](https://sergeybespyatov.github.io/demo-3/blog.html)
-- - 6 [Отдельный пост](https://sergeybespyatov.github.io/demo-2/entry.html)
+- - 6 [Отдельный пост](https://sergeybespyatov.github.io/demo-3/entry.html)
